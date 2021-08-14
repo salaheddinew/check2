@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.koulch {
+  background-color: white;
+  width: 60%;
+  border: white;
+  display: flex;
+  justify-content: space-around;
+  font-size: 15px;
+  box-shadow: hsl(180, 1%, 48%);
+}
+.lfouk {
+  display: flex;
+  width: 200;
+  justify-content: space-around;
+  color: hsl(180, 29%, 50%);
+}
+.lwast {
+  display: flex;
+  width: 500;
+  margin: 0.5em 0;
+}
+
+.taht {
+  display: flex;
+  justify-content: space-around;
+  color: hsl(180, 8%, 52%);
+}
+
+.trois {
+  flex-direction: column;
+  padding: 0%;
+}
+
+.tout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: none;
+}
+
+.cote {
+  display: flex;
+  align-items: center;
+}
+
+.cote > span {
+  margin-right: 1rem;
+  border: 1px;
+  background-color: hsl(180, 31%, 95%);
+  color: hsl(180, 29%, 50%);
+  border-radius: 8%;
+  font-size: 80%;
+}
